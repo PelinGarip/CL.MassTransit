@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-CL.MassTransit.Consumer-CFD2EDB0-2F27-4E82-90FE-CED6ADAE3B3A</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="7.2.4" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CL.MassTransit.Core\CL.MassTransit.Core.csproj" />
+  </ItemGroup>
+</Project>

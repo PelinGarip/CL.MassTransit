@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CL.MassTransit.Core\CL.MassTransit.Core.csproj" />
+    <ProjectReference Include="..\CL.MassTransit.Shared\CL.MassTransit.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
